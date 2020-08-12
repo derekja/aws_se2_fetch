@@ -41,9 +41,10 @@ if (!(IsNull($param2))) {
 
 #Pull in each filename, construct S3 path, copy file to local
 $dataFiles = Import-Csv -Path $inFile -Header 'tmp'
-
+$counter = 0
 ForEach ($scene in $dataFiles)
 {
+    $counter = $counter +1
     $yr =  $scene.tmp.Substring(11,4)
     $mo = $scene.tmp.Substring(15,2).trimstart('0')
     $day = $scene.tmp.Substring(17,2).trimstart('0')
@@ -51,13 +52,17 @@ ForEach ($scene in $dataFiles)
    $fn = "s3://sentinel-s2-l1c/products/" + $yr + "/" + $mo + "/" + $day + "/" + $scene.tmp
    $fd = "s3://derekja/"+$inFile+".results/"+$scene.tmp
 
+    Write-Host $counter
     Write-Host $fn
     $fp =  "pwsh.exe"
     $fa = "/c aws s3 cp " + $fn + " " + $fd + " --recursive --request-payer 'requester'"
     #
     Write-host $fp
     Write-Host $fa
-    Start-Process -FilePath $fp -ArgumentList $fa -Wait -WindowStyle Minimized
-
+    if (($counter % 10) -eq 0) {
+        Start-Process -FilePath $fp -ArgumentList $fa -WindowStyle Minimized -Wait
+    } else {
+        Start-Process -FilePath $fp -ArgumentList $fa -WindowStyle Minimized
+    }
 }
 

@@ -50,5 +50,9 @@ OK, for instance this cli command copies a file from the se2 bucket to a /tmp di
  azcopy copy 'https://derekja.s3.us-east-1.amazonaws.com/se2_2018_1.csv.results' 'https://olci.blob.core.windows.net/se2?sv=2019-02-02&st=2020-08-12T02%3A52%3A48Z&se=2026-08-13T02%3A52%3A00Z&sr=c&sp=racwdl&sig=bpHtRe2V6tj82fWQ08bdU1RlvphJ8tnrd3OrVZ9QtlM%3D' --recursive=true
 
 
+---------------
+hmm, 2016 choked. Had to reboot the computer actually. I think it's because I took out the -Wait in the start process and so it began accumulating powershell instances. It was OK when there were a hundred, but 300 and something was just too many windows to spawn. Will try again segmented...
 
+
+Whether because of naming or sync problems, not a single 2016 hit came through. I think we'd better look for other 2016 sources.
 
