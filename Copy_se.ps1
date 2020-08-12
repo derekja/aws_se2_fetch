@@ -49,14 +49,15 @@ ForEach ($scene in $dataFiles)
     $day = $scene.tmp.Substring(17,2).trimstart('0')
 
    $fn = "s3://sentinel-s2-l1c/products/" + $yr + "/" + $mo + "/" + $day + "/" + $scene.tmp
+   $fd = "s3://derekja/"+$inFile+".results/"+$scene.tmp
 
     Write-Host $fn
-    $fp =  "cmd.exe"
-    $fa = "/c aws s3 ls " + $fn + " --recursive --request-payer 'requester'"
+    $fp =  "pwsh.exe"
+    $fa = "/c aws s3 cp " + $fn + " " + $fd + " --recursive --request-payer 'requester'"
     #
     Write-host $fp
     Write-Host $fa
-    Start-Process -FilePath $fp -ArgumentList $fa -Wait -WindowStyle Maximized
-    break
+    Start-Process -FilePath $fp -ArgumentList $fa -Wait -WindowStyle Minimized
+
 }
 

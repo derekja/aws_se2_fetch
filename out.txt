@@ -1,0 +1,29 @@
+Completed 6.8 KiB/7.9 MiB (7.8 KiB/s) with 10 file(s) remaining
+copy: s3://sentinel-s2-l1c/products/2018/8/30/S2B_MSIL1C_20180830T192859_N0206_R142_T09UWS_20180830T231740/datastrip/0/qi/RADIOMETRIC_QUALITY_report.xml to s3://derekja/tmp3/S2B_MSIL1C_20180830T192859_N0206_R142_T09UWS_20180830T231740/datastrip/0/qi/RADIOMETRIC_QUALITY_report.xml
+Completed 6.8 KiB/7.9 MiB (7.8 KiB/s) with 9 file(s) remaining
+Completed 11.4 KiB/7.9 MiB (12.9 KiB/s) with 9 file(s) remaining
+copy: s3://sentinel-s2-l1c/products/2018/8/30/S2B_MSIL1C_20180830T192859_N0206_R142_T09UWS_20180830T231740/datastrip/0/qi/SENSOR_QUALITY_report.xml to s3://derekja/tmp3/S2B_MSIL1C_20180830T192859_N0206_R142_T09UWS_20180830T231740/datastrip/0/qi/SENSOR_QUALITY_report.xml
+Completed 11.4 KiB/7.9 MiB (12.9 KiB/s) with 8 file(s) remaining
+Completed 18.8 KiB/7.9 MiB (21.3 KiB/s) with 8 file(s) remaining
+copy: s3://sentinel-s2-l1c/products/2018/8/30/S2B_MSIL1C_20180830T192859_N0206_R142_T09UWS_20180830T231740/datastrip/0/qi/GENERAL_QUALITY_report.xml to s3://derekja/tmp3/S2B_MSIL1C_20180830T192859_N0206_R142_T09UWS_20180830T231740/datastrip/0/qi/GENERAL_QUALITY_report.xml
+Completed 18.8 KiB/7.9 MiB (21.3 KiB/s) with 7 file(s) remaining
+Completed 19.8 KiB/7.9 MiB (21.9 KiB/s) with 7 file(s) remaining
+copy: s3://sentinel-s2-l1c/products/2018/8/30/S2B_MSIL1C_20180830T192859_N0206_R142_T09UWS_20180830T231740/productInfo.json to s3://derekja/tmp3/S2B_MSIL1C_20180830T192859_N0206_R142_T09UWS_20180830T231740/productInfo.json
+Completed 19.8 KiB/7.9 MiB (21.9 KiB/s) with 6 file(s) remaining
+Completed 28.1 KiB/7.9 MiB (30.0 KiB/s) with 6 file(s) remaining
+copy: s3://sentinel-s2-l1c/products/2018/8/30/S2B_MSIL1C_20180830T192859_N0206_R142_T09UWS_20180830T231740/datastrip/0/qi/GEOMETRIC_QUALITY_report.xml to s3://derekja/tmp3/S2B_MSIL1C_20180830T192859_N0206_R142_T09UWS_20180830T231740/datastrip/0/qi/GEOMETRIC_QUALITY_report.xml
+Completed 28.1 KiB/7.9 MiB (30.0 KiB/s) with 5 file(s) remaining
+Completed 50.1 KiB/7.9 MiB (52.4 KiB/s) with 5 file(s) remaining
+copy: s3://sentinel-s2-l1c/products/2018/8/30/S2B_MSIL1C_20180830T192859_N0206_R142_T09UWS_20180830T231740/datastrip/0/qi/FORMAT_CORRECTNESS_report.xml to s3://derekja/tmp3/S2B_MSIL1C_20180830T192859_N0206_R142_T09UWS_20180830T231740/datastrip/0/qi/FORMAT_CORRECTNESS_report.xml
+Completed 50.1 KiB/7.9 MiB (52.4 KiB/s) with 4 file(s) remaining
+Completed 93.3 KiB/7.9 MiB (96.1 KiB/s) with 4 file(s) remaining
+copy: s3://sentinel-s2-l1c/products/2018/8/30/S2B_MSIL1C_20180830T192859_N0206_R142_T09UWS_20180830T231740/metadata.xml to s3://derekja/tmp3/S2B_MSIL1C_20180830T192859_N0206_R142_T09UWS_20180830T231740/metadata.xml
+Completed 93.3 KiB/7.9 MiB (96.1 KiB/s) with 3 file(s) remaining
+Completed 111.6 KiB/7.9 MiB (113.6 KiB/s) with 3 file(s) remaining
+copy: s3://sentinel-s2-l1c/products/2018/8/30/S2B_MSIL1C_20180830T192859_N0206_R142_T09UWS_20180830T231740/inspire.xml to s3://derekja/tmp3/S2B_MSIL1C_20180830T192859_N0206_R142_T09UWS_20180830T231740/inspire.xml
+Completed 111.6 KiB/7.9 MiB (113.6 KiB/s) with 2 file(s) remaining
+Completed 168.1 KiB/7.9 MiB (155.0 KiB/s) with 2 file(s) remaining
+copy: s3://sentinel-s2-l1c/products/2018/8/30/S2B_MSIL1C_20180830T192859_N0206_R142_T09UWS_20180830T231740/manifest.safe to s3://derekja/tmp3/S2B_MSIL1C_20180830T192859_N0206_R142_T09UWS_20180830T231740/manifest.safe
+Completed 168.1 KiB/7.9 MiB (155.0 KiB/s) with 1 file(s) remaining
+Completed 7.9 MiB/7.9 MiB (3.1 MiB/s) with 1 file(s) remaining    
+copy: s3://sentinel-s2-l1c/products/2018/8/30/S2B_MSIL1C_20180830T192859_N0206_R142_T09UWS_20180830T231740/datastrip/0/metadata.xml to s3://derekja/tmp3/S2B_MSIL1C_20180830T192859_N0206_R142_T09UWS_20180830T231740/datastrip/0/metadata.xml
